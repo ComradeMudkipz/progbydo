@@ -6,7 +6,7 @@ public class BMICalcImper
     {
         Scanner keyboard = new Scanner(System.in);
 
-        double heightFeet, heightInches, weightPounds, feetInInches, bmiImper;
+        double heightFeet, heightInches, weightPounds, bmiImper;
 
         System.out.print( "Your height (feet only): " );
         heightFeet = keyboard.nextDouble();
